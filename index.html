@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-Meals</title>
+    <link rel="stylesheet" href="./meals.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="navcon">
+            <img id="logo-img" src="./logo-png.png" alt="Online-Meals.com">
+            <ul>
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="cont">
+            <h1>Welcome to Online-meals.com</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button id="btn-order">Order Now</button>
+        </div>
+    </section>
+    <section>
+        <h2 id="ser-h2">Our Services</h2>
+        <div class="services">
+            
+            <div class="ser">
+                <h3>Food Order</h3>
+                <img src="./pizza-png.png" alt="order food" class="ser-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, harum!</p>
+            </div>
+            <div class="ser">
+                <h3>Bulk Order</h3>
+                <img src="./bulk.jpeg" alt="order in bulk" class="ser-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, harum!</p>
+            </div>
+            <div class="ser">
+                <h3>Food Delivery</h3>
+                <img src="./food-del.jpg" alt="food delivery" class="ser-img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, harum!</p>
+            </div>
+        </div>
+    </section>
+    <section class="form-order">
+        <h2>Order Food</h2>
+        <h3>Enter your details</h3>
+        <form action="#">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" placeholder="Enter your address" id="address">
+            </div>
+            <div>
+                <label for="e-mail">Email</label>
+                <input type="email" id="e-mail" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="ph-no">Phone Number</label>
+                <input type="number" id="ph-no" placeholder="Enter your phone number">
+            </div>
+            <input type="submit" id="submit">
+        </form>
+    </section>
+    <footer>
+        <h4>© Online-Meals</h4>
+    </footer>
+</body>
+</html>
