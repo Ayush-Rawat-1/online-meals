@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* navigation bar */
+.navcon::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    z-index:-1;
+}
+.navcon{
+    font-family: 'Pangolin', cursive;
+    display: flex;
+    color: white;
+}
+#logo-img{
+    width: 60px;
+    margin: 5px 20px;
+    border-radius: 38%;
+}
+
+.navcon > ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item{
+    padding: 16px;
+    margin: 5px 15px;
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+.item a{
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(160 122 122);
+}
+.item a:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width:768px){
+    .navcon{
+        display: inline;
+    }
+}
+.home::before{
+    content: "";
+    z-index: -1;
+    background: url(./title.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    height: 53vh;
+    width: 100%;
+}
+.home .cont{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 40px;
+}
+#btn-order{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn-order:hover{
+    background-color: #6c0a71;
+    color: white;
+}
+
+#ser-h2{
+    font-size: 2.5rem;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.services{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.ser-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 55px;
+} 
+.ser{
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+    background: #e0dcdc;
+}
+.form-order{
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    background: aliceblue;
+}
+.form-order h2{    
+    margin:5px auto;
+}
+.form-order h3{
+    margin-top: 10px;
+}
+.form-order form{
+    border: 2px solid black;
+    margin: 17px 12%;
+}
+.form-order form label,input{
+    font-size: 1.2rem;
+    display: block;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+.form-order form input{
+    width: 300px;
+    margin-left: 36%;
+    padding: 3px;
+}
+#submit{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: rgb(221, 234, 194);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #d4bca84c;
+    color: rgb(255, 0, 251);
+}
